@@ -9,11 +9,5 @@ export default function ErrorTest() {
   const obj = { name: 'test', value: 123;
   
   // JSX error - missing closing tag
-  return (
-    <div>
-      <h1>Build Error Component</h1>
-      <p>This has multiple build errors
-      <button onClick={nonExistentFunction}>Click me</button>
-    </div>
-  );
+;
 }
