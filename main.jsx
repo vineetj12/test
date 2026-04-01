@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import ErrorTest from './ErrorTest.jsx';
 
 function App() {
-  return <h1>Build is working</h1>;
+  return <ErrorTest />;
 }
 
 ReactDOM.createRoot(document.getElementById('root')).render(
