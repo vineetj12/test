@@ -12,4 +12,7 @@ export default defineConfig({
     outDir: 'dist',
     sourcemap: true,
   },
+  define: {
+    'window.__APP_API_URL__': JSON.stringify('http://localhost:4000'),
+  },
 })
